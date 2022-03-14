@@ -522,7 +522,7 @@ string InsManager()
 int main(int argc, char *argv[])
 {
     Timer timer;
-    string inpath = "C:\\Users\\SPT\\Desktop\\nand2tetris\\projects\\08\\FunctionCalls\\FibonacciElement";
+    string inpath;
     inpath = argv[1];
     cout << "Input path: "<<inpath<<endl;
     cout << "Output Path: " << outputpath(inpath) << endl;
